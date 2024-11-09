@@ -114,3 +114,19 @@
     background-repeat: no-repeat;
     vertical-align: middle;
 }
+
+.flaticon-about{
+  display: inline-flex !important; /* 使用 flex 布局，以便内容和图标可以居中 */
+  align-items: center!important;  /* 垂直居中内容 */
+  justify-content: center!important;
+}
+.flaticon-about::before{
+  content: "";
+    display: inline-block;
+    width: 60%;
+    height: 60%;
+  background-image: url('../image/about-us.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
