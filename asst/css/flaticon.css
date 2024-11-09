@@ -66,3 +66,51 @@
     background-repeat: no-repeat;
     vertical-align: middle;
 }
+
+.flaticon-patents{
+  display: inline-flex !important; /* 使用 flex 布局，以便内容和图标可以居中 */
+  align-items: center!important;  /* 垂直居中内容 */
+  justify-content: center!important;
+}
+.flaticon-patents::before{
+  content: "";
+    display: inline-block;
+    width: 70%;
+    height: 70%;
+  background-image: url('../image/patents.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+
+.flaticon-test{
+  display: inline-flex !important; /* 使用 flex 布局，以便内容和图标可以居中 */
+  align-items: center!important;  /* 垂直居中内容 */
+  justify-content: center!important;
+}
+.flaticon-test::before{
+  content: "";
+    display: inline-block;
+    width: 60%;
+    height: 60%;
+  background-image: url('../image/sample.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.flaticon-gov{
+  display: inline-flex !important; /* 使用 flex 布局，以便内容和图标可以居中 */
+  align-items: center!important;  /* 垂直居中内容 */
+  justify-content: center!important;
+}
+.flaticon-gov::before{
+  content: "";
+    display: inline-block;
+    width: 60%;
+    height: 60%;
+  background-image: url('../image/governance.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
